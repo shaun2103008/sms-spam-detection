@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SMS Spam Detection</title>
+</head>
+<body style="font-family: Arial; text-align: center; margin-top: 50px;">
+
+    <h1>SMS Spam Detection System</h1>
+
+    <form action="/predict" method="POST">
+        <textarea name="message" rows="4" cols="50" placeholder="Enter your message here..." required></textarea>
+        <br><br>
+        <button type="submit">Check</button>
+    </form>
+
+    {% if prediction %}
+        <h2>Result:</h2>
+        <p><strong>Message:</strong> {{ message }}</p>
+        <p><strong>Prediction:</strong> {{ prediction }}</p>
+        <p><strong>Spam Probability:</strong> {{ probability }}</p>
+    {% endif %}
+
+</body>
+</html>
