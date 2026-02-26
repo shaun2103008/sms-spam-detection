@@ -67,3 +67,22 @@ Clone the repository:
 ```bash
 git clone https://github.com/shaun2103008/sms-spam-detection.git
 cd sms-spam-detection
+
+## 💡 Key Highlights
+
+- End-to-end Machine Learning pipeline (training → inference → deployment)
+- TF-IDF feature engineering with Logistic Regression classifier
+- Model serialization using pickle for production inference
+- Separation of training and serving logic
+- Flask-based backend with real-time web interface
+- Custom probability threshold tuning
+- Cloud deployment using Render
+- Version controlled using Git & GitHub
+
+## 👨‍💻 Author
+
+**Shaun Banis**  
+Machine Learning & Backend Development Enthusiast  
+📍 India  
+
+Feel free to connect on LinkedIn for collaboration and discussions.
