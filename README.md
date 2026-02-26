@@ -59,15 +59,6 @@ User Input
 - Git & GitHub  
 
 ---
-
-## 🚀 How To Run Locally
-
-Clone the repository:
-
-```bash
-git clone https://github.com/shaun2103008/sms-spam-detection.git
-cd sms-spam-detection
-
 ## 💡 Key Highlights
 
 - End-to-end Machine Learning pipeline (training → inference → deployment)
@@ -86,3 +77,11 @@ Machine Learning & Backend Development Enthusiast
 📍 India  
 
 Feel free to connect on LinkedIn for collaboration and discussions.
+
+## 🚀 How To Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/shaun2103008/sms-spam-detection.git
+cd sms-spam-detection
