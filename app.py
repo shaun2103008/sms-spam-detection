@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template
 import pickle
+import os
 
 # Load model and vectorizer once at startup
 model = pickle.load(open("spam_model.pkl", "rb"))
@@ -36,4 +37,5 @@ def predict():
     )
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
