@@ -3,6 +3,9 @@
 A deployed machine learning-powered SMS Spam Detection system built using TF-IDF and Logistic Regression, served via a Flask backend with a real-time web interface.
 
 ---
+## 🔗 Live Demo
+
+https://sms-spam-detection-no1p.onrender.com
 
 ## 📌 Project Overview
 
